@@ -108,8 +108,8 @@ header {
       font-size: 45px !important;
   
        /* Borde de las letras */
-       -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
-       color: #2266be; /* Color de la letra principal */
+       -webkit-text-stroke: 3px rgb(0, 0, 0); /* Ancho y color del borde */
+       color: #3159df; /* Color de la letra principal */
    
        /* Sombra */
        text-shadow: 25px 20px 5px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
