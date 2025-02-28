@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .NavarH1{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+     /* Borde de las letras */
+     -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
+     color: #3159df; /* Color de la letra principal */
+ 
+     /* Sombra */
+     text-shadow: 25px 20px 5px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
+     /* animation: flip 5s ease forwards; */
+}
+
+
+@keyframes flip {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+
+
+
+.NavarH2{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+     /* Borde de las letras */
+     -webkit-text-stroke: 1px rgb(0, 0, 0); /* Ancho y color del borde */
+     color: #3159df; /* Color de la letra principal */
+ 
+     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
+     /* Sombra */
+     
+    
+}
+  
+  .ImagenLogo {
+    width: 140px;
+    margin-right: 15px;
+    margin-left: 0px;
+    
+    animation: flip 7s ease forwards;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 15px;
+    display: inline-block;
+  }
+  
+  /* Botón hamburguesa */
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    nav {
+      display: none;
+      position: absolute;
+      top: 200px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    nav.open {
+      display: block;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
