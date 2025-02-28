@@ -108,7 +108,7 @@ header {
   
        /* Borde de las letras */
        -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
-       color: #3965f7; /* Color de la letra principal */
+       color: #3583eb; /* Color de la letra principal */
    
        /* Sombra */
        text-shadow: 25px 20px 5px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
@@ -118,7 +118,7 @@ header {
     nav {
       display: none;
       position: absolute;
-      top: 110px;
+      top: 120px;
       right: 0;
       background-color: white;
       width: 100%;
