@@ -18,6 +18,7 @@ header {
     padding: 0px;
     margin: 0px;
     margin-left: 0;
+    font-size: 47px;
 
      /* Borde de las letras */
      -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
@@ -45,7 +46,7 @@ header {
     padding: 0px;
     margin: 0px;
     margin-left: 0;
-
+    font-size: 20px;
      /* Borde de las letras */
      -webkit-text-stroke: 1px rgb(0, 0, 0); /* Ancho y color del borde */
      color: #3159df; /* Color de la letra principal */
@@ -58,7 +59,7 @@ header {
   
   .ImagenLogo {
     width: 140px;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-left: 0px;
     
     animation: flip 7s ease forwards;
@@ -90,6 +91,21 @@ header {
     .menu-toggle {
       display: block;
     }
+
+    .NavarH1{
+      padding: 0px;
+      margin: 0px;
+      margin-left: 0;
+      font-size: 40px !important;
+  
+       /* Borde de las letras */
+       -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
+       color: #3159df; /* Color de la letra principal */
+   
+       /* Sombra */
+       text-shadow: 25px 20px 5px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
+       /* animation: flip 5s ease forwards; */
+  }
   
     nav {
       display: none;
