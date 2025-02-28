@@ -81,7 +81,7 @@ header {
   .menu-toggle {
     display: none;
     font-size: 24px;
-    background: none;
+    background: blue;
     border: none;
     cursor: pointer;
   }
