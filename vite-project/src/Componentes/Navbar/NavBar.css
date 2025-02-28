@@ -81,7 +81,8 @@ header {
   .menu-toggle {
     display: none;
     font-size: 24px;
-    background: blue;
+    background: none;
+    color: #3159df;
     border: none;
     cursor: pointer;
   }
@@ -104,7 +105,7 @@ header {
       padding: 0px;
       margin: 0px;
       margin-left: 0;
-      font-size: 35px !important;
+      font-size: 40px !important;
   
        /* Borde de las letras */
        -webkit-text-stroke: 4px rgb(0, 0, 0); /* Ancho y color del borde */
